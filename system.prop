@@ -43,6 +43,7 @@ bluetooth.hfp.client=1
 qcom.bluetooth.soc=smd
 
 # Camera
+persist.camera.HAL3.enabled=0
 persist.camera.isp.clock.optmz=0
 vidc.enc.dcvs.extra-buff-count=2
 media.camera.ts.monotonic=1
@@ -119,7 +120,7 @@ vidc.enc.disable.pq=true
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.am.reschedule_service=true
-ro.sys.fw.dex2oat_thread_count=4
+ro.sys.fw.dex2oat_thread_count=8
 
 
 # Netmgrd
